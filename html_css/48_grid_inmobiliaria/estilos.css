@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+/* fñex */
+.flex{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin:5px;
+}
+
+.banner{
+    width: 50%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+nav{
+    margin: 10px 0; 
+    width: 100%;
+    
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.menu li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: solid orchid 2px;
+    padding: 2px 20px;
+}
+
+
+/*Grid*/
+
+main{
+    display:grid;
+    grid-template-areas: 
+    "H H H"
+    "texto texto img1"
+    "img img img";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 65% auto;
+    justify-items: center;
+    align-items: center;
+
+    /*Margenes*/
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    
+   
+
+}
+
+
+.titulo{
+    grid-area: H;
+    text-align: left;
+    color: blueviolet;
+    align-self:flex-end;
+    
+}
+.texto{
+    grid-area: texto;
+    width: 80%;
+   
+   
+}
+
+.casa1{
+    grid-area:img1;
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+}
+
+.imgPadre{
+    grid-area: img;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+
+}
+
+.imgPadre img{
+    width: 20%;
+}
+

@@ -1,0 +1,91 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.center{
+margin-bottom: 20px;
+text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li {
+   list-style-type: none;
+    background-color: aqua;
+    margin-bottom: 10px;
+    margin-left: 5px;;
+    border-radius: 10px;
+    padding: 2px 40px;
+   text-align: center;
+   width: 5em;
+   height: 2em;
+   line-height: 2em;
+}
+
+ul{
+    height: 300px;
+    background-color: bisque;
+}
+
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.verticalArriba{
+    align-items: flex-start;
+}
+
+.verticalCentro{
+    align-items: center;
+}
+
+.verticalAbajo{
+    align-items: flex-end;
+}
+
+.horizontalIzquierda{
+    align-items: flex-start;
+}
+
+.horizontalCentrar{
+    align-items: center;
+}
+
+.horizontalDerecha{
+    align-items: flex-end;
+}
+
+
+
+
+
+hr{
+    margin-bottom: 10px;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinearFlex{
+    display: flex;
+    flex-direction: row;
+    background-color: salmon;
+    height: 500px;
+}
+
+.alinearPrederminado{
+    align-items: baseline;
+}
+
+.alinearStretch{
+    align-items: stretch;
+}

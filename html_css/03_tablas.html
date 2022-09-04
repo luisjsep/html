@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+    <h1>Tablas</h1>
+
+     <h2>Tabla por defecto</h2>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Sepulveda</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>Vega</td>
+            <td>19</td>
+        </tr>
+
+        <tr>
+            <td>Antonella</td>
+            <td>Guzman</td>
+            <td>14</td>
+        </tr>
+
+        <tr>
+            <td>Sebastian</td>
+            <td>Cuevas</td>
+            <td>25</td>
+        </tr>
+    </table>
+<br>
+<br>
+    <h2>Tabla con bordes</h2>
+
+    <table border="3">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Sepulveda</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>Vega</td>
+            <td>19</td>
+        </tr>
+
+        <tr>
+            <td>Antonella</td>
+            <td>Guzman</td>
+            <td>14</td>
+        </tr>
+
+        <tr>
+            <td>Sebastian</td>
+            <td>Cuevas</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+<br>
+<br>
+    <h2>Tabla más elaborada</h2>
+   
+    <table border="3" cellpadding="20" cellspacing="5" id="tabla">
+
+        <caption>Ventas</caption>
+        <thead>
+        <tr>
+            <th colspan="3">Registros</th>
+        </tr>    
+        <tr>
+            
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Monto</th>
+         </tr>
+        </thead>
+        <tbody>        <tr>
+          <td>Luis</td>
+          <td>Sepulveda</td>
+          <td>55.000</td>
+        </tr>
+        <tr>
+            <td>Sebastian</td>
+            <td>Cuevas</td>
+            <td>199.000</td>
+          </tr>
+          <tr>
+            <td>Antonella</td>
+            <td>Guzman</td>
+            <td>500.000</td>
+
+            <tr>
+                <td rowspan="3"> Jaime</td>
+                <td>Salazar</td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                
+                <td>Salazar</td>
+                
+            </tr>
+            <tr>
+                
+                <td>Salazar</td>
+                
+            </tr>
+        </tr>
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <td></td>
+            <td>754.000</td>
+        </tfoot>
+
+    </table>
+
+
+    <p><strong>Colspan:</strong> Permite combinar celdas en el plano horizontal y hacia la derecha </p>
+    <p><strong>Rowspan:</strong> Permite combinar celdas en el plano  vertical y en dirección hacia abajo </p>
+    <p><strong>Cellpadding:</strong> Permite generar espacio entre un elemento al interior de un celda y el limite de celda</p>
+    <p><strong>Rowspan:</strong> Genera un espacio entre el borde de la tabla y el de las celdas</p>
+    <p>Estos cambios actualmente se realizan en CSS</p>
+    <br>
+    <p>Referencia: <a href="https://jorgesanchez.net/manuales/html/tablas-html.html">https://jorgesanchez.net/manuales/html/tablas-html.html</a></p>
+    <a href="/html_css.html"><img src="/html_css/img/favicon.png" alt="volver" width="2%"></a>
+</body>
+</html>

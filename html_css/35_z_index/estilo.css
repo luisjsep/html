@@ -1,0 +1,46 @@
+
+
+.negrita{
+    font-weight: bold;
+}
+
+
+
+div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 2.5em;
+    position:relative;
+     border-radius: 5px;
+
+    margin:10px;
+
+    /*con esto se logra centrar el texto en el eje vertical, procurando darle las mismas medidas de la caja*/
+    line-height: 200px;
+   
+    
+}
+
+
+
+
+.uno{
+    background-color:aqua;
+    top:50px;
+    left:50px;
+    z-index: 30;
+
+}
+.dos{
+    background-color: violet;
+    left:100px;
+    z-index: 25;
+}
+
+.tres{
+    background-color: firebrick;
+    top: -50px;
+    left:150px;
+    z-index: 20;
+}

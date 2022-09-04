@@ -1,0 +1,31 @@
+/*Estilos generales*/
+
+header{
+    background-color: #d3d3d3;
+    
+}
+
+div{
+    background-color: orange;
+    /*width: 100px;*/
+    /*height: 100px;*/
+    margin: 5px;
+}
+
+/* Grids */
+/*Explicitas */
+
+.grid{
+    display: grid;
+    /*Para que aplique estos valores es necesario desactivar el atributo widht */
+    /*Los grids se van llenando de izquierda a derecha*/
+    grid-template-columns: 20% 40% 40%;
+   
+    /*Para que aplique estos valores es necesario desactivar el atributo height
+    y ademas darle la altura al padre
+    */
+
+    grid-template-rows: 40vh 40vh ;
+
+
+}

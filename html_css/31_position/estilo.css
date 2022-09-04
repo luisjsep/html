@@ -1,0 +1,32 @@
+
+
+
+.navbar {
+  background-color: #333; 
+  }
+/*se utilizo inline-block para agregar la propiedad de ancho y de alto*/
+li{
+    list-style: none;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 1px;
+    margin: 10px 2px;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.padre li{
+    display: inline-block;
+    position: relative;
+}
+.madre {
+    display:none; /*para desaparecer*/
+    position: absolute;
+    top: 45px;
+    left: -42px;
+  }
+  ul li:hover .madre{
+	display: block;
+}

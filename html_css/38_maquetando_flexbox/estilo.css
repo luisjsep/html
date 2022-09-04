@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul li{
+    
+    /*eliminar subrayado*/
+  
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    margin-left: 5px;
+    line-height: 30px;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+aside{
+background-color: aliceblue;
+padding: 20px;
+width: 20%;
+}
+
+section{
+    background-color: blanchedalmond;
+    padding: 2em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: orangered;
+
+}
+
+li a:hover{ 
+    font-weight: bold;
+    font-size: 1.1em;
+    /*subrayado*/
+    text-decoration: underline;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+   }
+
+.main-flex{
+    display:flex;
+}
+
+.centrar{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section img{
+    
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.galeria-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    /*super super importante ya que las imagenes son elementos de linea, esto permite utilizar la propiedad width y height*/
+    display:inline-block;
+}
+

@@ -1,0 +1,19 @@
+
+.fondoImagen{
+background-image: url("../img/espacio.jpg");
+}
+
+.fondoImagenExterna{
+    background-image: url("http://placekitten.com/600/300");
+   /* background-repeat: no-repeat; */
+}
+
+p{
+    color: azure;
+}
+
+.negro{
+    color:black;
+}
+
+

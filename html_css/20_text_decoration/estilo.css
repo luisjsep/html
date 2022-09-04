@@ -1,0 +1,17 @@
+
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.subrayadoAmarillo{
+    text-decoration: underline yellow;
+}
+
+.subrayadoSuperior{
+    text-decoration: overline red;
+}
+
+.tachado{
+    text-decoration: line-through;
+}

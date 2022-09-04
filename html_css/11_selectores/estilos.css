@@ -1,0 +1,23 @@
+
+h2{
+    color:aqua
+}
+
+
+/*Clases*/
+.fondoRojo{
+    background-color: red;
+    color: white;
+}
+
+.fondoRojo h2{
+    color: white;
+}
+/*IDS*/
+#uno{
+    background-color: coral;
+}
+
+.center{
+    text-align: center;
+}

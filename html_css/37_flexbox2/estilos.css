@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.centrar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+ul li{
+    color:black;
+    /*eliminar subrayado*/
+  
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 10%;
+    margin-left: 5px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+ul{
+    background-color: antiquewhite;
+}
+
+li{
+   list-style-type: none;
+}
+
+li a:hover{ 
+    font-weight: bold;
+    font-size: 1.1em;
+    /*subrayado*/
+    text-decoration: underline;
+}
+
+.flexRow{
+ display: flex;
+ flex-direction: row;
+}
+
+.flexRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.usandoWrap{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+*{
+    display: 0;
+    padding: 0;
+}
+
+
+li a{
+    color: black;
+    /*eliminar subrayado*/
+    text-decoration:none;
+
+}
+
+li a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+nav{
+    background-color: orangered;
+    text-align: center;
+
+}
+
+
+li{
+    list-style: none;
+    display:inline;
+    font-size: 24px; 
+   
+}
+

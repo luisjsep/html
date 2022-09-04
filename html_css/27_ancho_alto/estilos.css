@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: blanchedalmond;
+    height: 1000px;
+}
+
+.ancho{
+   width: 900px;
+    background-color: gray;
+}
+
+.alto{
+    height: 100px;
+     background-color: gray;
+ }
+
+ .porcentajeAncho{
+    width: 50%;
+    background-color: gray;
+ }
+ .porcentajeAlto{
+    height: 50%;
+    background-color: gray;
+ }
+
+ .viewPort{
+    height: 20vh;
+    background-color: aquamarine;
+ }

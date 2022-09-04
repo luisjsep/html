@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.margenes{
+    background-color: aqua;
+    margin-left: 100px;
+
+}
+
+.margenesAbreviados{
+    margin: 20px 20px 20px 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.relleno{
+    background-color: aqua;
+    padding: 10px 10px 10px 100px;
+}
+
+.borde{
+    border-left: dotted 10px black;
+}
+body{
+    background-color: papayawhip;
+}

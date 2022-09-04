@@ -1,0 +1,14 @@
+
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    /*overflow: scroll;*/
+    overflow: auto;
+
+}
+
+.negrita{
+    font-weight: bold;
+}

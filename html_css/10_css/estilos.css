@@ -1,0 +1,13 @@
+/* esto es un comentario*/
+
+h1{
+    color: blue;
+}
+
+h2{
+    color:blueviolet;
+}
+
+article h2{
+    color: red;
+}
